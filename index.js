@@ -22,6 +22,8 @@ app.use(express.urlencoded());
 //MW to use the CookieParser
 app.use(cookieParser());
 
+app.use(express.static("./assets"));
+
 //extract style and scripts from sub pages to the layout
 app.set("layout extractStyles", true);
 app.set("layout extractScripts", true);

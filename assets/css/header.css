@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    background-color: rgb(196, 247, 247);
+}
+#navParent{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(71, 137, 243);
+    /* padding-left: 10px; */
+    /* padding-right: 50px; */
+}
+#navParent .title{
+    margin-left: 20px;
+    
+}
+.title a{
+    text-decoration: none;
+    color: black;
+}
+.header-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    margin-right: 20px;
+}
+.btn{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(88, 184, 158);
+    border-radius: 10px;
+    
+}
+.btn:hover{
+    background-color: rgb(166, 246, 186);
+}
+.btn a{
+    text-decoration: none;
+}

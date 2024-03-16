@@ -1,6 +1,12 @@
-<div>
-    <h1>This is Footer</h1>
-    <% if(locals.user){%>
-        <button><a href="/users/reset-page">Reset Password</a></button>
-        <%}%>
+<div id="footerParent">
+  <div class="footerTitle">
+    <h1 style="font-family: sans-serif;">Made with pain</h1>
+  </div>
+
+  <% if(locals.user){%>
+  <div>
+    <button class="btn" ><a href="/users/reset-page">Reset Password</a></button>
+  </div>
+
+  <%}%>
 </div>

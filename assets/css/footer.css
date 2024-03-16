@@ -1,0 +1,10 @@
+#footerParent{
+    background-color: rgb(60, 92, 99);
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.footerTitle{
+    margin-left: 20px;
+    margin-right: 20px;
+}

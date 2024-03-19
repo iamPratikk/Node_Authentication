@@ -53,10 +53,6 @@ app.use(customMW.setFlash);
 
 app.use("/", require("./routes"));
 
-
-
-
-
 app.listen(port, function(err){
     if(err){
         console.log("Error in starting server", err)
